@@ -71,7 +71,7 @@ else if (age % Math.sqrt(age) === 0) {
 */
 
 var count = 1;
-white(count < 6){
+while (count < 6) {
   console.log("Count is: " + count);
   count++; // Remember to increase the count
 }
