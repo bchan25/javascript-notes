@@ -43,3 +43,25 @@ var nameCapital = capitalize("ben");
 
 // No longer a function
 capitalize = "HELLO";
+
+
+/* 
+  Higher Order Functions 
+  
+  Pass functions into other functions
+*/
+
+function sing() {
+  console.log("twinkle twinkle...");
+  console.log("how i wonder...");
+}
+
+// Function calling another function. 
+// No () because we want setInterval() to execute it
+setInterval(sing, 1000);
+
+// Anonymous Function
+setInterval(function () {
+  console.log("I am an anonymous function");
+  console.log("This is awesome!");
+}, 2000);
