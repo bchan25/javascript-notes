@@ -48,4 +48,4 @@ var posts = [
   }
 ]
 
-// This Keyword (Which data you refer to)
+// This Keyword (Which data you refer to) https://www.w3schools.com/js/js_this.asp 
