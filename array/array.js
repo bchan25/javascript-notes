@@ -39,3 +39,23 @@ colours.indexOf("red");
 // Slice to copy parts of an array [orange, yellow]
 // Inclusive means not including the last number (index)
 var newColours = colours.slice(1, 3);
+
+
+/* 
+  Interation 
+  Looping a array  
+*/
+
+var posts = ["post1", "post2", "post3", "post4"];
+
+// Common way to loop array
+for (var i = 0; i < posts.length; i++) {
+  console.log(post[i]);
+}
+
+// Nicer and the new way more common
+posts.forEach(function (post) {
+  console.log(post);
+});
+
+
